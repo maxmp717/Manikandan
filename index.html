@@ -138,15 +138,17 @@
 
       <div class="col-sm ">
           <div class="contact_container ">
-            <form action="#" class="contact_form">
-              <input type="text" placeholder="Name"class="control_input" data-aos="fade-right"
+            <!-- modify this form HTML and place wherever you want your form -->
+
+            <form action="https://formspree.io/f/mlezwvye"
+            method="POST" class="contact_form">
+              <input type="text" name="Name" placeholder="Name"class="control_input" data-aos="fade-right"
               data-aos-delay="250"  required/>
-              <input type="mail" placeholder="Email"class="control_input"   data-aos="fade-right"
-              data-aos-delay="300"/>
-              <textarea name=""id=""cols="0"rows="10"placeholder="Type your valuable comments"class="control_input"   data-aos="fade-right"
-              data-aos-delay="400"></textarea>
-              <input type="button"value="Submit"class="btn1 btn-primary"data-aos="fade-right"
-              data-aos-delay="400"/>
+              <input type="email" name="email"placeholder="Email"class="control_input"   data-aos="fade-right"
+              data-aos-delay="300" required/>
+              <textarea name=""id=""cols="0"rows="10" name="message"placeholder="Type your valuable comments"class="control_input"   data-aos="fade-right"
+              data-aos-delay="400" required></textarea>
+              <button type="Submit"class="btn1 btn-primary"> Submit</button>
             </form>
           </div></div></div></div></div>
         </section>  
