@@ -67,7 +67,7 @@ nav{
     color:#0E2431!important ;
 }
 .home_img{
-    position: absolute;
+     /* position: absolute;  */
     bottom: 0;
     width: 300px;
     transition: all .2s ease-in-out;
@@ -80,14 +80,14 @@ nav{
   }
   .home_img svg {
     width: 150%;
-    padding-top:145px;
-    padding-left: 70px;
+    padding-top:85px;
+    /* padding-left: 70px; */
    
   }
    /* about */
   .about_img svg{
     width: 120%;
-    height: 100%;
+    /* height: 100%; */
     padding-top:40px;
     margin-bottom: 28%;
   }
