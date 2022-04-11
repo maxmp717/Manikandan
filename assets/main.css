@@ -413,7 +413,7 @@ html {
   padding: 15px 20px;
   text-transform: uppercase;
 }
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 390px){
   .home_row{
     display:flex!important;
     flex-direction: column!important;
@@ -439,7 +439,7 @@ html {
   margin-left: 100px;
 }
 .btn{
-  width: 55%;
+  width: 60%;
 }
 .h1_color{
   margin-top:0px;
