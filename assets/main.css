@@ -413,7 +413,7 @@ html {
   padding: 15px 20px;
   text-transform: uppercase;
 }
-@media only screen and (max-width: 390px){
+@media only screen and (max-width: 500px){
   .home_row{
     display:flex!important;
     flex-direction: column!important;
